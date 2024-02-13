@@ -69,7 +69,7 @@ class Rehber():
         if(len(kisiler)==0):
             print("Bulunmuyor...")
         else:
-            arama_sayisi = kisiler[0][4]
+            kisi = kisiler[0][4]
             arama_sayisi += 1
 
             sorgu2="UPDATE rehbers SET arama_sayisi = ? WHERE isim = ?"
